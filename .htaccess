@@ -1,0 +1,12 @@
+#
+# source:
+# https://stackoverflow.com/questions/66592111/remove-ci4-public-index-php-with-htaccess-rewrite-rule-on-subdomain-folder
+#
+
+DirectoryIndex index.php
+Options -Indexes
+
+RewriteEngine On
+
+# Unconditionally rewrite everything to the "public" subdirectory
+RewriteRule (.*) public/$1 [L]

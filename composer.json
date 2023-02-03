@@ -1,0 +1,29 @@
+{
+    "name": "noraziz/aci-manis",
+    "description": "A CodeIgniter adMin pANel skeleton for Information System project",
+    "type": "project",
+	"keywords": [
+        "codeigniter",
+        "codeigniter4",
+        "admin-panel",
+		"twig",
+		"acl"
+    ],
+    "homepage": "https://github.com/noraziz/aci-manis",
+    "require": {
+        "php": ">=7.3",
+		"codeigniter4/framework": "^4",
+        "noraziz/ci4-twiggy": "^0.2.1",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nor Aziz",
+            "email": "tonoraziz@gmail.com"
+        }
+    ]
+}
