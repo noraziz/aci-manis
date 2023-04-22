@@ -12,9 +12,12 @@
     "homepage": "https://github.com/noraziz/aci-manis",
     "require": {
         "php": ">=7.3",
-		"codeigniter4/framework": "^4",
+	"codeigniter4/framework": "^4",
         "noraziz/ci4-twiggy": "^0.2.1",
-        "tecnickcom/tcpdf": "^6.6"
+        "tecnickcom/tcpdf": "^6.6",
+        "noraziz/ci4-aauth": "^0.1.0",
+        "vectorface/googleauthenticator": "^3.0",
+        "google/recaptcha": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.1"
