@@ -18,7 +18,9 @@ As always, sorry for my bad English :)
 ## Core Engine
 * Codeigniter4 Modular
 * Bootstrap v4
+* PDF Engine [TCPDF](https://tcpdf.org)
 * Twig Template: [ci4-twiggy](https://github.com/noraziz/ci4-twiggy)
+* Aauth User Management : [ci4-aauth](https://github.com/noraziz/CodeIgniter-Aauth)
 
 ## Installation
 
